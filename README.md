@@ -16,6 +16,7 @@ Resources:
 * https://classroom.udacity.com/
 * https://www.w3schools.com/python/
 * https://stackoverflow.com/
+* https://github.com/Alsufyanid/pdsnd_github.git
 
 
 ### By: 
