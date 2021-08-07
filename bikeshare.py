@@ -14,7 +14,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city= input('Our service Takes place in these three cities: (chicago, new york city, washington), please write down which one you are interested to get data from?\n')
+        city= input('write the city name')
         city= city.lower()
         if city not in CITY_DATA.keys():
             user_error_message="Unfortunately {} is either an invalid entry or not in our service range yet"
@@ -155,14 +155,6 @@ def user_stats(df,city):
     print('-'*40)
 
     
-def display_data(df):
-    view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
-    start_loc = 0
-    while (view_data =='yes'):
-        print(df.iloc[start_loc:start_loc+5])
-        start_loc += 5
-        view_data = input("Do you wish to continue?: ").lower()
-
 
 def main():
     while True:
@@ -173,7 +165,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df,city)
-        display_data(df)
+       
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
