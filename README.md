@@ -13,7 +13,10 @@ provided cvs files from Udacity as follows:
 
 ### Credits
 Resources:
-* Udacity - Udacity's Programming for Data Science Nanodegree Program.
+* https://classroom.udacity.com/
 * https://www.w3schools.com/python/
+* https://stackoverflow.com/
 
+
+### By: 
 Daniah Alsufyani
